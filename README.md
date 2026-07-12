@@ -11,6 +11,10 @@ An action-conditioned, playable closed-loop world model experiment inspired by M
 The repository contains source code, tests, documentation, and selected media only. Generated datasets,
 model checkpoints, latent caches, and experiment runs are intentionally excluded through `.gitignore`.
 
+> **Artifact note:** the playable commands below expect locally generated files under `data/` and `runs/`.
+> A pretrained checkpoint bundle is not published yet, so a fresh clone is currently reproducible from the
+> training scripts but is not immediately playable.
+
 ## Current V12 Playable Candidate
 
 V12 is a deterministic, observable game-world candidate built from:
