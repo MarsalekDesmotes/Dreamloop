@@ -77,7 +77,7 @@ def main() -> None:
     engine, current = reset()
     assisted = False
     pygame.init()
-    pygame.display.set_caption("Mini MIRA - Toy Arena V2")
+    pygame.display.set_caption("Dreamloop - Toy Arena")
     width = current.shape[1] * args.scale
     height = current.shape[0] * args.scale
     ui_height = 34

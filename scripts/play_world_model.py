@@ -260,7 +260,7 @@ def main() -> None:
     show_engine = False
 
     pygame.init()
-    pygame.display.set_caption("MiniMIRA playable world model")
+    pygame.display.set_caption("Dreamloop - Playable World Model")
     height, width = current.shape[:2]
     screen = pygame.display.set_mode((width * args.scale, height * args.scale))
     clock = pygame.time.Clock()

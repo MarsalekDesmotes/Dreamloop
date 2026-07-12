@@ -52,7 +52,7 @@ def predict_chunk(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Play the latent MIRA-lite world model in chunks.")
+    parser = argparse.ArgumentParser(description="Play the Dreamloop latent world model in chunks.")
     parser.add_argument("--data", default="data/toy_arena_mixed_event_128_16k.npz")
     parser.add_argument("--checkpoint", default="runs/latent_dynamics_c8_h8_e20_gpu/best.pt")
     parser.add_argument("--autoencoder", default=None)
@@ -108,7 +108,7 @@ def main() -> None:
     assisted = bool(args.assisted)
 
     pygame.init()
-    pygame.display.set_caption("MiniMIRA latent chunk world model")
+    pygame.display.set_caption("Dreamloop - Latent World Model")
     height, width = current.shape[:2]
     screen = pygame.display.set_mode((width * args.scale, height * args.scale))
     clock = pygame.time.Clock()

@@ -3,8 +3,8 @@
 Run this from a fresh Colab notebook:
 
 ```bash
-!git clone <your-repo-url> Mira-clone
-%cd Mira-clone
+!git clone <your-repo-url> dreamloop
+%cd dreamloop
 !pip install -r requirements.txt
 ```
 

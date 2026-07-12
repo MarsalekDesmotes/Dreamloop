@@ -109,7 +109,7 @@ def main() -> None:
     assisted = bool(args.assisted)
 
     pygame.init()
-    pygame.display.set_caption("MiniMIRA sequence chunk world model")
+    pygame.display.set_caption("Dreamloop - Sequence World Model")
     height, width = current.shape[:2]
     screen = pygame.display.set_mode((width * args.scale, height * args.scale))
     clock = pygame.time.Clock()

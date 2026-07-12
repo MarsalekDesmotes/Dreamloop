@@ -1,6 +1,6 @@
-# MiniMIRA Toy Arena
+# Dreamloop
 
-Small action-conditioned video prediction prototype for a MIRA-like world model.
+An action-conditioned, playable closed-loop world model experiment inspired by MIRA.
 
 ## Current V12 Playable Candidate
 
@@ -424,7 +424,7 @@ event chunk closed-loop: mse=0.011398 foreground_mse=0.137802
 
 The rollout4 foreground run improved mixed closed-loop but regressed event/collision foreground. The event-focused run improved aggregate MSE slightly but worsened foreground persistence. Both remain research checkpoints; the active demo has moved to the player-blue-weighted checkpoint above.
 
-## Latent MIRA-Lite Path
+## Latent World Model Path
 
 The next research path is closer to MIRA's structure: train a frame autoencoder, freeze it, then train action-conditioned dynamics in latent space instead of predicting RGB directly.
 
