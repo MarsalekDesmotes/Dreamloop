@@ -1,0 +1,9 @@
+torch>=2.2
+torchvision>=0.17
+numpy>=1.24
+tqdm>=4.66
+matplotlib>=3.8
+imageio>=2.34
+imageio-ffmpeg>=0.4
+pygame>=2.6
+pytest>=8.0

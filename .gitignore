@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+data/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.gif
