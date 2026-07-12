@@ -2,6 +2,15 @@
 
 An action-conditioned, playable closed-loop world model experiment inspired by MIRA.
 
+![Dreamloop four-panel comparison](docs/media/dreamloop-four-panel.png)
+
+[Watch the 30-second progress comparison](docs/media/dreamloop-progress-30s.mp4)
+
+![Codec reconstruction samples](docs/media/codec-reconstruction-contact-sheet.png)
+
+The repository contains source code, tests, documentation, and selected media only. Generated datasets,
+model checkpoints, latent caches, and experiment runs are intentionally excluded through `.gitignore`.
+
 ## Current V12 Playable Candidate
 
 V12 is a deterministic, observable game-world candidate built from:
@@ -39,7 +48,7 @@ This remains labeled a hybrid playable candidate rather than a final latent MIRA
 Final 30-second four-panel comparison:
 
 ```text
-runs/v12_hybrid_progress_4panel_30s.mp4
+docs/media/dreamloop-progress-30s.mp4
 ```
 
 The panels show the engine, codec reconstruction, early direct-RGB baseline, and final guarded hybrid world. The file is verified at 30 seconds, 12 FPS, and 360 frames.
